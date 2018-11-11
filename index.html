@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!--[if lte IE 6]><html class="preIE7 preIE8 preIE9"><![endif]-->
+<!--[if IE 7]><html class="preIE8 preIE9"><![endif]-->
+<!--[if IE 8]><html class="preIE9"><![endif]-->
+<!--[if gte IE 9]><!--><html><!--<![endif]-->
+  <head>
+    <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>title</title>
+  <meta name="author" content="name">
+  <meta name="description" content="description here">
+  <meta name="keywords" content="keywords,here">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+  <link rel="stylesheet" href="css/stylesheet.css" type="text/css">
+  </head>
+  <body>
+  <div class="container">
+    <div class="row">
+      <div class="twelve columns">
+        <h1 class="title">Sequel - Coin Change App</h1>
+        <hr>
+      </div>
+    </div>
+    <div class="row">
+
+      <div class="six columns rounded-border">
+
+        <p>Enter the amount in pence and hit enter</p>
+        <form id="amountForm" action="">
+            <label for="amount"></label>
+            <input class="u-full-width" id="amount" type="text" name="amount" placeholder="£12.00">
+            <p id="error"></p>
+            <button class="button-primary" type="submit"> Enter</button>
+        </form>
+      </div>
+      <div class="six columns">
+        <ul id="result-container">
+          <li>
+            <img src="https://upload.wikimedia.org/wikipedia/en/f/f1/British_two_pound_coin_2015_reverse.png" alt="two-pounds">
+            <p>£2 X</p>
+            <span>0</span>
+          </li>
+          <li>
+            <img src="https://upload.wikimedia.org/wikipedia/en/c/c0/British_12_sided_pound_coin.png" alt="two-pounds">
+            <p>£1 X</p>
+            <span>0</span>
+          </li>
+            <li>
+            <img src="https://upload.wikimedia.org/wikipedia/en/d/d8/British_fifty_pence_coin_2015_reverse.png" alt="two-pounds">
+            <p>50p X</p>
+            <span>0</span>
+          </li>
+          <li>
+            <img src="https://www.changechecker.org/umbraco/ImageGen.ashx?pad=true&constrain=false&height=250&width=250&image=/coin-images/212/Change-Checker-App-20p-2.png" alt="two-pounds">
+            <p>20p X</p>
+            <span>0</span>
+          </li>
+          <li>
+            <img src="https://tenpenceworth.files.wordpress.com/2017/06/cropped-10pcoin1.jpg" alt="two-pounds">
+            <p>10p X</p>
+            <span>0</span>
+          </li>
+          <li>
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/07/British_five_pence_coin_2015_reverse.png/220px-British_five_pence_coin_2015_reverse.png" alt="two-pounds">
+            <p>5p X</p>
+            <span>0</span>
+          </li>
+          <li>
+            <img src="https://hasbola.ru/wp-content/uploads/2016/11/2-pence-coin-great-britain-obverse-1-325x325.jpg" alt="two-pounds">
+            <p>2p X</p>
+            <span>0</span>
+          </li>
+          <li>
+            <img src="https://c1.staticflickr.com/1/804/40516004134_70b2e28160_b.jpg" alt="two-pounds">
+            <p>1p X</p>
+            <span>0</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+
+  </body>
+</html>

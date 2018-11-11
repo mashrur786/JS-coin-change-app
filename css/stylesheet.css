@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+body {
+    font-family: 'Comfortaa', cursive;
+}
+h1.title {
+    text-align: center;
+}
+
+.rounded-border {
+    border: 1px solid #D1D1D1;
+    padding: 20px;
+    border-radius: 4px;
+}
+ul#result-container {
+    list-style: none;
+}
+
+ul#result-container  li p {
+ display: inline-block;
+ font-size: 1.3em;
+}
+ul#result-container li img {
+    width: 30px;
+    vertical-align: middle;
+
+}
+
+ul#result-container li span {
+    font-size: 1.5em;
+    color: #548662;
+}
