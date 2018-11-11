@@ -11,6 +11,11 @@ h1.title {
     padding: 20px;
     border-radius: 4px;
 }
+
+p#error {
+    color: red;
+    animation: all 2s;
+}
 ul#result-container {
     list-style: none;
 }
