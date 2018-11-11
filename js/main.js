@@ -48,7 +48,7 @@
 
         } else {
 
-            element.innerHTML = "Error! Please inter a valid amount";
+            element.innerHTML = "Error! please enter a valid amount";
             console.log('amount is not valid:' + amount);
         }
 
