@@ -1,5 +1,5 @@
     //on form submit
-    document.getElementById("amountForm").onsubmit = function() {
+    document.getElementById("amountForm").onsubmit = function(event) {
 
         //prevent from submission
         event.preventDefault();
@@ -66,7 +66,6 @@
          input = parseFloat(input.replace(/\D/g,''));
          //console.log(input);
          return input*100;
-
      }
      return parseFloat(input.replace(/\D/g,''));
  }
